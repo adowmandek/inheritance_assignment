@@ -23,7 +23,6 @@ class Bus(make:String,model:String,color:String,capacity:Int,):Car(make,model,co
     fun parkingFees(hours:Int):Int{
         return hours*55
     }
-
 }
 
 fun main() {
